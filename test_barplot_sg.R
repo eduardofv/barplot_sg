@@ -1,5 +1,4 @@
 library(MASS)
-setwd("~/local/eduardofv/projects/R_barplot/")
 
 source("barplot_sg.R")
 m1<-as.matrix(read.table(file = "m1.dat",header = T), as.is=T)
